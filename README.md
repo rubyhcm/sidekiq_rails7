@@ -1,24 +1,5 @@
-# README
+# Creating the Sidekiq Worker `gem 'sidekiq-cron'`
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In Sidekiq, background jobs are executed by workers. We’ll create a worker called PostFetcherWorker to fetch posts from an external API and update the local database with the retrieved data.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#
